@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+header {
+    background-color:steelblue;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:mediumseagreen;
+    height:310px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:75%;
+    background-color: palegreen;
+    float:left;
+    padding:10px;	 
+    height: 300px;	 
+}
+footer {
+    background-color:steelblue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Data into Employee Database </h1>
+</header>
+
+<nav>
+<a href="/Project1/simpleFormSearch.html">Search Employee</a> <br>
+</nav>
+
+<section>
+	<h2>Input Employee Information</h2>
+	
+	<form action="SimpleFormInsert" method="POST">
+	
+		First Name: <input type="text" name="first_name"> <br />
+		Last Name: <input type="text" name="last_name"> <br />
+		Phone: <input type="text" name="phone"> <br />
+		Email: <input type="text" name="email"> <br />
+		Years Employed: <input type="text" name="years"> <br />
+		Department: <input type="text" name="department"> <br />
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Employee Database
+</footer>
+</body>
+</html>
